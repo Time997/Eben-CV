@@ -1,100 +1,206 @@
+
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <style>
-            .Ebenpic {
-                width: 250px;
-                
-                height: 250px;
-            }
-        </style>
-    </head>
+  <head>
+    <title>Eben van der Merwe - CV</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
+    />
+    <link rel="stylesheet" href="MyCV.css" />
+    <meta charset="utf-8" />
+    <style>
+      body {
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 32px;
+      }
+      .profile-pic {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        object-fit: cover;
+        border: 8px solid white;
+      }
+      .name {
+        text-align: center;
+        margin-bottom: 32px;
+      }
+      .name h1 {
+        font-size: 32px;
+        font-weight: 700;
+        margin: 0;
+      }
+      .jobs {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 32px;
+      }
+      .job {
+        width: 50%;
+        margin-bottom: 16px;
+      }
+      .job h4 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 8px;
+      }
+      .job h5 {
+        font-size: 16px;
+        font-weight: normal;
+      }
+      .job ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .school {
+        margin-bottom: 16px;
+      }
+      .school h4 {
+        font-size: 18px;
+        font-weight: bold;
+      }
+      .school ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .skills ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .skills li {
+        font-size: 14px;
+        margin-right: 16px;
+        margin-bottom: 16px;
+      }
+      @media (max-width: 600px) {
+        .job {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
   <body>
-    <div id="mainTitle">
-      <h1>Eben van der Merwe</h1>
-      <img class="Ebenpic" src="https://github.com/Time997/Eben-CV/blob/main/vdm.jpg">
-    </div>
-    <hr>
-    <section id="experience">
-      <h3>Work Experience</h3>
-      <div class="job">
-        <h4><a href="" target="_blank">https://www.syntech.co.za/pcbuilder/</a> <span>(From Jan 2022 - To Present)</span></h4>
-        <h5>Assembly technician</h5>
-        <hr>
-        <ul>
-          <li>Syntech  Midrand, Gauteng</li>
-          <li>I love what i do and the company, i just feel i can do alot more , and i am still young and want to keepmy options open to better myself firstly.</li>
-          <li>Did some shoots for Computer Mainia and NAG <a href="" target="_blank">https://www.youtube.com/watch?v=gobCuTvIyZM</a> </li>
-        </ul>
+    <div class="container">
+      <div class="name">
+        <h1>Eben van der Merwe</h1>
+        <img
+          class="profile-pic"
+          src="https://github.com/Time997/Eben-CV/blob/main/vdm.jpg"
+          alt="Profile picture"
+        />
       </div>
-      <div class="job">
-        <h4><a href="" target="_blank"></a> <span>(From September 2019 - To November Date)</span></h4>
-        <h5>Data Capturer</h5>
-        <hr>
-        <ul>
-          <li>Hall Longmore</li>
-          <li>Temporary Job</li>
-          <li>October 2019 to November 2019 <a href="" target="_blank"> http://www.hall-longmore.co.za</a></li>
-        </ul>
+      <div class="jobs">
+        <div class="job">
+          <h4>
+            <a href="https://www.syntech.co.za/pcbuilder/" target="_blank"
+              >Syntech</a
+            >
+            <span>(Jan 2022 - Present)</span>
+          </h4>
+          <h5>Assembly Technician</h5>
+          <ul>
+            <li>Syntech Midrand, Gauteng</li>
+            <li>
+              I love what I do and the company, but I feel I can do a lot more
+              and I am still young and want to keep my options open to better
+              myself.
+            </li>
+            <li>
+              Did some shoots for Computer Mainia and NAG:
+              <a
+                href="https://www.youtube.com/watch?v=gobCuTvIyZM"
+                target="_blank"
+                >https://www.youtube.com/watch?v=gobCuTvIyZM</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="job">
+          <h4>
+            <a href="http://www.hall-longmore.co.za" target="_blank"
+              >Hall Longmore</a
+            >
+            <span>(Sep 2019 - Nov 2019)</span>
+          </h4>
+          <h5>Data Capturer</h5>
+          <ul>
+            <li>Temporary job</li>
+            <li>Oct 2019 - Nov 2019</li>
+          </ul>
+        </div>
+        <div class="job">
+          <h4>
+            <a href="https://www.fastflame.co.za" target="_blank"
+              >Fast Flame profiling cc</a
+            >
+            <span>(Jan 2017 - Jan 2018)</span>
+          </h4>
+          <h5>CNC Machine Operator</h5>
+          <ul>
+            <li>Germiston, Gauteng</li>
+            <li>
+              Plasma Operator. High Def/Plasma Operator with a year of
+              experience of operating and a knowledge of different steel types
+              and CNC plasma cutting machines. Could run
+            </li>
+
+            <li>the whole plasma field on my own, running all machines.</li>
+          </ul>
+        </div>
       </div>
-      <div class="job">
-        <h4><a href="" target="_blank">http://www.hall-longmore.co.za</a> <span>(From January 2017 to  January 2018)</span></h4>
-        <h5>CNC Machine Operator</h5>
-        <hr>
-        <ul>
-          <li>Fast Flame profiling cc - Germiston, Gauteng</li>
-          <li>January 2017 to January 2018</li>
-          <li>Plasma Operator.High Def/Plasma Operator with a year of experience of operating and a knowledge of different steel typesand CNC plasma cutting machines could run the whole plasma field on my lwn running all machines <a href="" target="_blank">https://www.fastflame.co.za</a> </li>
-        </ul>
-      </div>
-    </section>
-    <hr>
-    <section id="education">
-      <h3>Education</h3>
-      <div class="school">
-        <h4> Hoerskool Montana - Pretoria, Gauteng <span>(From Grade 8 - To Grade 10)</span></h4>
-        <ul>
-          <li>High school</li>
-         
-        </ul>
-      </div>
-      <div class="school">
-        <h4>Hoerskool Alberton<span>(From Grade 11 - To Grade 12)</span></h4>
-        <ul>
-          <li>N4</li>
-          <li>Certificate in A+ & N+
+      <div class="education">
+        <h3>Education</h3>
+        <div class="school">
+          <h4>
+            Hoerskool Montana - Pretoria, Gauteng
+            <span>(Grades 8 - 10)</span>
+          </h4>
+          <ul>
+            <li>High school</li>
+          </ul>
+        </div>
+        <div class="school">
+          <h4>
+            Hoerskool Alberton
+            <span>(Grades 11 - 12)</span>
+          </h4>
+          <ul>
+            <li>N4</li>
+          </ul>
+        </div>
+        <div class="school">
+          <h4>
             Damelin - Centurion, Gauteng
-            January 2021 to January 2022</li>
-          <li>Certificate in Basic Electronics</li>
-          <li> My Skills :
-• Microsoft Office (4 years)
-• Microsoft Excel (4 years)
-• Microsoft Outlook (4 years)
-• Microsoft Word (4 years)
-• HTML (3 years)
-• Data Capturing (2 years)
-• Swimming (10+ years)
-• SQL (Less than 1 year)
-• Visual Basic (1 year)
-• Networking (2 years)
-• CNC (1 year)
-• Xaml (3 years)
-• Graphic Design (1 year)
-• Javascript (2 years)
-• Any Linux OS (5 years)
-• Computer Hardware (5 years)
-• CSS (2 years)
-          </li>
+            <span>(Jan 2021 - Jan 2022)</span>
+          </h4>
+          <ul>
+            <li>Certificate in A+ & N+</li>
+            <li>Certificate in Basic Electronics</li>
+            <li>Certificate in CNC Plasma and Gas Cutting</li>
+          </ul>
+        </div>
+      </div>
+      <div class="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>Assembly and repair of computer hardware</li>
+          <li>A+ and N+ certified</li>
+          <li>Basic electronics</li>
+          <li>CNC plasma and gas cutting</li>
+          <li>Plasma operator</li>
         </ul>
       </div>
-    </section>
-    <hr>
-    <section id="about">
-      <h3>About Me Personally</h3>
-      <p>I am calm and like to keep to myself and put maximum effort into everything i love.</p>
-      <div id="contact">Connect with me via
-        <a href="" target="_blank">https://www.linkedin.com/in/eben-van-der-merwe-749bb0242/</a>
-        <br>
-        Or shoot me an <a href="ebenvdm97@gmail.com">email</a>
-      </div>
-    </section>
+    </div>
+  </body>
+</html>
